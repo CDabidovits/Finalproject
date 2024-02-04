@@ -5,6 +5,26 @@ body {margin: 0; background-color: #962ae6; font-family: Arial, Helvetica, sans-
 .nav a:hover{color: #52c5ff; }
 .nav-center{ float: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 .sticky { position: fixed; top: 0; width: 100%;}
-img{ width: 20rem;}
-.top-site{ padding-top: 60px; padding-bottom: 10px; width: 50%; display: flex; justify-content: center; margin-left: auto; margin-right: auto;  }
-.headerwords{ padding-bottom: 50px; width: 50%; display: flex; justify-content: center; margin-left: auto; margin-right: auto; font-weight: bold;  }
+.top-site img{ width: 50%; height: 50%; padding-right: 30px; padding-left: 5px;}
+.image2 img{ width: 20rem; padding-right: 30px; padding-left: 5px;}
+.top-site{padding-top: 60px; padding-bottom: 10px; width: 50%; display: flex; justify-content: center; margin-left: auto; margin-right: auto;}
+.headerwords{ padding-bottom: 50px; width: 50%; display: flex; justify-content: center; margin-left: auto; margin-right: auto; font-weight: bold;}
+.about-me{background-color:white; border-style: solid; border-width: 15px; border-color: rgb(255 114 114 / 80%);  padding-top: 60px; padding-bottom: 10px; width: 70%; height:500px; display: flex; justify-content: center; margin-left: auto; margin-right: auto; }
+.about-me-2 {display: flex; align-items: center; justify-content: center;}
+.projects{width: 100%; margin: auto; padding-top: 80px ;}
+h2{color: white; text-align: center; padding-bottom: 30px;}
+.rectangle{background-color: white; width: 800px; height: 700px; border: 1px solid black; display: flex; align-items: center;}
+.rec{flex: 1; display: flex; align-items: center; border: 1px solid black;}
+.rec img{ width: 100%; height: 100%;}
+.formba{width: 100%; height: 600px; background-color: rgba(3,3,3,45%); color: white; padding-top: 80px; }
+.contactitle{text-align: center;}
+.formcontact{ width: 65% ; margin: auto; display: flex; padding-top: 30px; padding-bottom: 80px; }
+input[type=text], select{ width: 100%; padding: 12px 20px; margin: 8px 0;  border-radius: 4px;}
+input[type=email], select{ width: 100%; padding: 12px 20px; margin: 8px 0;  border-radius: 4px;}
+input[type=textarea], select{ width: 100%; height: 200px; padding: 12px 20px; margin: 8px 0;  border-radius: 4px;}
+.input{color: white; flex: 1; padding: 15px;  }
+input[type=submit], select{text-transform: uppercase;  background-color: lightblue; color: #1d3d5f; width: 140px; border-radius: 8px; padding-right: 20px; padding-left: 20px; padding-bottom: 15px; padding-top: 15px; font-weight: bold; float: right;}
+.button{text-align: center; margin: auto; }
+.button1 :hover{ background-color:black ; color: white;}
+.button1{padding-top: 30px; text-align: center;  }
+footer{background-color:#200e3d ;  padding: 25px; margin-bottom: 10px; color: white; padding-left: 200px; font-size: 14px;}
