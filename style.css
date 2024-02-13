@@ -37,3 +37,14 @@ h2 {font-family: "Days One", sans-serif;font-style: normal;}
 h3 {font-family: "Days One", sans-serif;font-style: normal;} 
 h4 {font-family: "Days One", sans-serif;font-style: normal;}  
 h5 {font-family: "Days One", sans-serif;font-style: normal;}
+@media (max-width:600px) {
+       .headerwords p {text-align: center;} .na .about-me, .about-me-2, .projects, .rectangle, .rec, .formba, .contactitle, .formcontact{
+        flex-direction: column;
+    }
+}
+@media (max-width:900px) { 
+    .top-site img { width: 500px; height: 100%;} 
+    .headerwords p {text-align: center; font-size: 35px; font-weight: bold;}
+    .image2 img{ width: 10rem; }
+   
+}
