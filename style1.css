@@ -10,12 +10,36 @@ body {margin: 0; background-color: #962ae6; font-family: 'work sans', sans-serif
 .image2 img{ width: 150px; padding-right: 30px; padding-left: 5px;}
 .about-me{background-color:white; border-style: solid; border-width: 15px; border-color: rgb(255 114 114 / 80%);text-align: center; display: block; margin-right: 20px; margin-left: 20px; margin-bottom: 1px; float: left;  }
 .about-me p{ padding-left: 20px; padding-right: 20px;}
-padding-top: 60px; padding-bottom: 10px;
+.projects{width: 100%; margin: auto; padding-top: 80px; display: flex; flex-direction: column; }
+.projects h2{color: white; text-align: center; padding-bottom: 30px;}
+.rectangle {display: flex; width: 50%; padding-bottom: 100px; margin: auto; flex-direction: column; }
+.rec{width: 100%; height: auto; background-color: white; border-radius: 10px; margin-bottom: 40px; margin-left: 30px; padding-bottom: 50px; }
+.rec img{ width: 100%; height: auto; padding-top: 15px;  border-width: 15px; }
+.rec p {text-align: center; margin-right: 10px; margin-left: 1px; font-size: 14px; }
+.rec h4 {text-align: center; margin-right: 10px; margin-left: 1px; }
+.rec button{border: 5px solid lightblue; color: #962ae6 ; background-color: white; border-radius: 12px; padding: 1px; display: flex; align-items: center; justify-content: center; }
+.rec button:hover{background-color: lightblue; color: white; font-weight: bold; justify-content: center;}
+.formba{width: 100%; height: 800px; background-color: rgba(3,3,3,45%); color: white; padding-top: 80px; }
+.contactitle{text-align: center;}
+.formcontact{ width: 100% ; margin: auto;  padding-top: 30px; padding-bottom: 80px; }
+input[type=text], select{ width: 100%; padding: 12px 20px; margin: 8px 0;  border-radius: 4px;}
+input[type=email], select{ width: 100%; padding: 12px 20px; margin: 8px 0;  border-radius: 4px;}
+input[type=textarea], select{ width: 100%; height: 200px; padding: 12px 20px; margin: 8px 0;  border-radius: 4px;}
+.input{color: white; flex: 1; padding: 15px;  }
+input[type=submit], select{text-transform: uppercase;  background-color: lightblue; color: #1d3d5f; width: 140px; border-radius: 8px; padding-right: 20px; padding-left: 20px; padding-bottom: 15px; padding-top: 15px; font-weight: bold; float: right;}
+.button{text-align: center; margin: auto; }
+.button1 :hover{ background-color:black ; color: white;}
+.button1{padding-top: 30px; text-align: center;  }
+footer{background-color:#200e3d ;  padding: 25px; margin-bottom: 10px; color: white;  font-size: 14px;}
+h2 {font-family: "Days One", sans-serif;font-style: normal;}
+h3 {font-family: "Days One", sans-serif;font-style: normal;} 
+h4 {font-family: "Days One", sans-serif;font-style: normal;}  
+h5 {font-family: "Days One", sans-serif;font-style: normal;}
 
 
 
-.about-me-2 {display: flex; align-items: center; }
-.aboutitle{ text-align: center; }
+
+
 
 
 
