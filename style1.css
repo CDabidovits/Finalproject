@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 body {margin: 0; background-color: #962ae6; font-family: 'work sans', sans-serif;}
-.nav{background-color:#200e3d ; position: sticky; top: 5px; padding: 10px; margin-top: 10px;}
+.nav{background-color:#200e3d ; position: sticky; top: 5px; padding: 10px; margin-top: 10px; }
 .nav a{color: white; text-align: center;  font-size: 17px; text-decoration: none;   margin-left: auto; margin-right: auto;  }
 .nav a:hover{color: #52c5ff;}
 .nav-center {margin: auto; width: 500px; display: flex; justify-content: center;}
@@ -38,7 +38,7 @@ h5 {font-family: "Days One", sans-serif;font-style: normal;}
 
 
 @media (min-width: 600px){
-    .formcontact{ width: 80% ; margin: auto; display: flex; padding-top: 30px; padding-bottom: 80px; }
+    .formcontact{ width: 100% ; margin: auto; display: flex; padding-top: 30px; padding-bottom: 80px; }
     input[type=text], select{ width: 100%; padding: 12px 20px; margin: 8px 0;  border-radius: 4px;}
     input[type=email], select{ width: 100%; padding: 12px 20px; margin: 8px 0;  border-radius: 4px;}
     input[type=textarea], select{ width: 100%; height: 200px; padding: 12px 20px; margin: 8px 0;  border-radius: 4px;}
